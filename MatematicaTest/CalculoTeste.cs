@@ -6,6 +6,7 @@ namespace MatematicaTest
     public class CalculoTeste
     {
         [TestMethod]
+        [Timeout(1)]
         public void Adicao()
         {
             Matematica matematica = new Matematica();
@@ -59,6 +60,13 @@ namespace MatematicaTest
             Matematica ma = new Matematica();
             decimal resultado = ma.Divisao(6.25m, 2.5m);
             Assert.AreEqual(2.5m, resultado);
+        }
+
+        [TestMethod]
+        public void Divisao_Por_Zero()
+        {
+            Matematica ma = new Matematica();
+            Assert.ThrowsException<System.DivideByZeroException>(() => ma.Divisao(0, 0));
         }
     }
 }

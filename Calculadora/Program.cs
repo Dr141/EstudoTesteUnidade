@@ -63,9 +63,7 @@ while (true)
     }
     catch (Exception e) 
     { 
-        Console.WriteLine(e.Message); 
+        Console.WriteLine("Menssagem: {0} Exception: {1}", e.Message, e.InnerException); 
         break;
     }
 }
-
-Console.ReadKey();

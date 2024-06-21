@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calcular", "Calcular", "{04
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculadora", "Calculadora\Calculadora.csproj", "{5812AEAC-8635-4BC8-827C-A6A0D0D025ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatematicaTest", "MatematicaTest\MatematicaTest.csproj", "{D53ECA52-78E3-4E2A-A0BD-B87461858A42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraTest", "MatematicaTest\CalculadoraTest.csproj", "{D53ECA52-78E3-4E2A-A0BD-B87461858A42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
