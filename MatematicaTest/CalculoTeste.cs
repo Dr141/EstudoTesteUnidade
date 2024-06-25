@@ -1,4 +1,4 @@
-namespace MatematicaTest
+namespace CalculadoraTest
 {
     using Calculadora;
 
